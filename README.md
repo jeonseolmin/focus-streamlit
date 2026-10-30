@@ -45,5 +45,5 @@ uv run --group ml python ../focus-streamlit/dump_model.py
 - 학습 데이터: 21,786행(break 18,619 / focus 2,007 / distracted 1,160), 사용자 11명
 - 보고서(AI개발 수행내역서)의 분석은 22,112행입니다. 그때는 앱 분류표가 `java`·`javaw`를 IDE로 봤고,
   지금 분류표는 Java로 도는 게임 등과 섞이지 않도록 둘을 IDE에서 뺐습니다. 차이 326행은 모두 focus입니다.
-- 저장 형식: 이 배포본은 수업 예시대로 joblib으로 저장하고, DevDesk 앱은 LightGBM 텍스트 모델(`focus_lgbm.txt`)을
+- 저장 형식: 이 배포본은 joblib으로 저장하고, DevDesk 앱은 LightGBM 텍스트 모델(`focus_lgbm.txt`)을
   불러옵니다. 피처 28개와 하이퍼파라미터는 같습니다.
